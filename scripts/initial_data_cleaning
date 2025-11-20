@@ -1,0 +1,7 @@
+import pandas as pd
+# Load dataset
+df = pd.read_excel('../data/raw_data/NPD_DATA.xlsx')
+# Display first few rows
+print(df.head())
+# Basic summary
+print(df.describe())
